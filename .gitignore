@@ -1,3 +1,37 @@
 *pyc
 __pycache__
 .directory
+
+.vscode
+.venv
+node_modules
+flask_session
+apicel
+__pycache__
+
+# Recursive pycache and vscode folders
+**/__pycache__
+**/.vscode
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.drawio
+*.xlsx
+*.db
+*.csv
